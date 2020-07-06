@@ -3,5 +3,6 @@ def square_array(array)
   counter = 0
   array.each do |num|
     square[counter] = num.pow(2)
+    counter += 1
   end
 end
