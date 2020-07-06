@@ -1,7 +1,7 @@
 def square_array(array)
   square = Array.new(array.size)
   counter = 0
-  array.each(num) do
+  array.each do |num|
     square[counter] = num.pow(2)
   end
 end
